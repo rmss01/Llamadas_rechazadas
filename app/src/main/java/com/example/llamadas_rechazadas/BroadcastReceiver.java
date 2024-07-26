@@ -21,7 +21,11 @@ public class BroadcastReceiver extends android.content.BroadcastReceiver {
             Log.d("CallReceiver", "Call picked up");
         } else if (TelephonyManager.EXTRA_STATE_IDLE.equals(state)) {
             // Call ended or missed
+            String incomingNumber = intent.getStringExtra(TelephonyManager.EXTRA_INCOMING_NUMBER);
             Log.d("CallReceiver", "Call ended or missed");
+            Intent serviceIntent = new Intent(context, LocationSender.class);
+            serviceIntent.putExtra("incomingNumber", incomingNumber);
+            context.startService(serviceIntent);
         }
     }
 }
