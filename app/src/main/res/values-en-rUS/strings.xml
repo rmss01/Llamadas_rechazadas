@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rejected calls</string>
+    <string name="mode_agresive_title">Agresive mode</string>
+    <string name="info_text">Manage your rejected or lost calls</string>
+    <string name="mode_agresive_text_on">Tries to send a whatsapp message to the incoming number, otherwise, sends a sms.</string>
+    <string name="mode_agresive_text_off">Tries just to send a whatsapp message to the incoming number.</string>
+</resources>

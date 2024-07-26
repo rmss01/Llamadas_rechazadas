@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Llamadas_rechazadas</string>
+    <string name="mode_agresive_title">Modo agresivo</string>
+    <string name="info_text">Controla tus llamadas rechazadas o perdidas</string>
+    <string name="mode_agresive_text_on">Intenta enviar un mensaje de whatsapp al número entrante o de lo contrario, enviará un sms.</string>
+    <string name="mode_agresive_text_off">Intenta solo enviar un mensaje de whatsapp al número entrante.</string>
+</resources>
